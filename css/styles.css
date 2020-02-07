@@ -1,0 +1,44 @@
+#outputContent {
+  display: none;
+}
+
+#outputText {
+  color: blue;
+  font-weight: 700;
+}
+
+.blueColor {
+  color: blue;
+  font-weight: 700;
+}
+
+#outputArray {
+  color: yellowgreen;
+  font-weight: 700;
+}
+
+#anim {
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+input[type=text] {
+  visibility:hidden;
+}
+
+input[type=checkbox]:checked + input[type=text] {
+  visibility:visible;
+}
