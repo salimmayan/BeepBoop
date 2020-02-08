@@ -59,7 +59,19 @@ $(document).ready(function () {
 
     manipulatedIntegers = worker(inputInteger, order, substituteName, cBClicked); //main function call
     $("#outputContent").show();
-    $("#outputText").empty().append(inputInteger);
+    $("#inputIntText").empty().append(inputInteger);
+    if (cBClicked === false) {
+      $("#and").show();
+      $("#showSub").hide();
+      $("#subInput").empty().append(substituteName).hide();
+      $("#orderInput").empty().append(order.charAt(0).toUpperCase() + order.slice(1));
+    }
+    else if (cBClicked === true) {
+      $("#and").hide();
+      $("#orderInput").empty().append(order.charAt(0).toUpperCase() + order.slice(1));
+      $("#showSub").show();
+      $("#subInput").empty().append(substituteName).show();
+    }
     $("#outputArray").empty().prepend(manipulatedIntegers.join(", "));
   });
 });
