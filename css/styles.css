@@ -2,7 +2,18 @@
   display: none;
 }
 
-#outputText {
+#subInput {
+  display: none;
+  color: blue;
+  font-weight: 700;
+}
+
+#inputIntText {
+  color: blue;
+  font-weight: 700;
+}
+
+#orderInput {
   color: blue;
   font-weight: 700;
 }
@@ -16,6 +27,15 @@
   color: yellowgreen;
   font-weight: 700;
 }
+
+#and {
+  display: none;
+}
+
+#showSub {
+  display: none;
+}
+
 
 #anim {
   animation-duration: 10s;
