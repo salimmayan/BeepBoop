@@ -1,7 +1,10 @@
+  
 
   
 
 # Beep Boop Page
+
+  
 
   
 
@@ -15,11 +18,17 @@
 
   
 
+  
+
 - Numbers that contain a 1: all digits are replaced (all digits) with _"Beep!"_
 
   
 
+  
+
 - Numbers that contain a 2: all digits are replaced (all digits) with _"Boop!"_
+
+  
 
   
 
@@ -29,11 +38,17 @@
 
   
 
+  
+
 ##### Date: **2/7/2020**
 
   
 
+  
+
 #### By **Salim Mayan**
+
+  
 
   
 
@@ -47,7 +62,11 @@
 
   
 
+  
+
 The 3 above listed exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
+
+  
 
   
 
@@ -57,7 +76,11 @@ The 3 above listed exceptions are written from least to most important. The firs
 
   
 
+  
+
 - The number 21 should be replaced with _"Boop"_.
+
+  
 
   
 
@@ -65,7 +88,11 @@ The 3 above listed exceptions are written from least to most important. The firs
 
   
 
+  
+
 - Includes an option that returns the output in reversed order (beginning with the largest number upon clicking of Radio button Marked "Reverse").
+
+  
 
   
 
@@ -73,11 +100,17 @@ The 3 above listed exceptions are written from least to most important. The firs
 
   
 
+  
+
 A user should be able to enter a new number and see new results over and over again.
 
   
 
+  
+
 _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does not click the checkbox, the program shall display a list of values: `0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5, 6, 7, 8`
+
+  
 
   
 
@@ -91,7 +124,11 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 | Spec | Input | Output |
+
+  
 
   
 
@@ -103,12 +140,17 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 | **Homepage** | User accesses localhost:5500 | Homepage with user input form |
 
   
+
   
 
 | **Program only accepts Integer as User Input**| User Input: "5.3", Radio "Normal", and Checkbox unclicked| Output: `Please enter a valid value. The two nearest valid values are 5 and 6 ` |
+
+  
 
   
 
@@ -120,13 +162,18 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 | **Program will not accept negative numeral Input in first form**| User Input: "" | Output: `Value must be greater than equal to 0.` |
 
   
+| **Program usage for Numeral values** | Input: "36" and chooses radio button "Normal", Checkbox is unclicked| Output: `You entered Integer value of 36, and chose Normal order. Your Beep Boop output is as follows ...`
+
+`0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., I'm sorry, Dave. I'm afraid I can't do that., I'm sorry, Dave. I'm afraid I can't do that., I'm sorry, Dave. I'm afraid I can't do that., I'm sorry, Dave. I'm afraid I can't do that., I'm sorry, Dave. I'm afraid I can't do that., I'm sorry, Dave. I'm afraid I can't do that.` |
+
+| **Program usage for Numeral values** | Input: "9" and chooses radio button "Reverse", Checkbox is unclicked| Output: `You entered Integer value of 9, and chose Reverse order. Your Beep Boop output is as follows ...`
 
   
-
-| **Program usage for Numeral values** | Input: "9" and chooses radio button "Reverse", Checkbox is unclicked| Output: `You entered Integer value of 9, and chose Reverse  . Your Beep Boop output is as follows ...`
 
   
 
@@ -136,16 +183,23 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
-| **Program usage for Numeral values (radio button set to "Reverse" & Checkbox clicked with string inputted to 2nd form)** | Input: "15", chooses radio button "Reverse", Checkbox is clicked with String "Ezra" inputted to 2nd form| Output: `You entered Integer value of 15, chose Reverse, and Substitute name for  Dave  is Ezra. Your Beep Boop output is as follows ...`
+  
+
+| **Program usage for Numeral values (radio button set to "Reverse" & Checkbox clicked with string inputted to 2nd form)** | Input: "15", chooses radio button "Reverse", Checkbox is clicked with String "Ezra" inputted to 2nd form| Output: `You entered Integer value of 15, chose Reverse order, and Substitute name for  Dave  is  Ezra. Your Beep Boop output is as follows ...`
+
+  
 
   
 
 `Beep!, Beep!, I'm sorry, Dave. I'm afraid I can't do that., Boop!, Beep!, Beep!, 9, 8, 7, 6, 5, 4, I'm sorry, Ezra I'm afraid I can't do that., Boop!, Beep!, 0` |
 
   
+
   
 
 ## Setup/Installation Requirements
+
+  
 
   
 
@@ -157,13 +211,19 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 2. To run program, open index.html from browser
 
   
 
   
 
+  
+
 ## Known Bugs
+
+  
 
   
 
@@ -177,7 +237,11 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 ## Technologies Used
+
+  
 
   
 
@@ -187,7 +251,11 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 * CSS
+
+  
 
   
 
@@ -195,11 +263,17 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 * JS
 
   
 
+  
+
 * Bootstrap
+
+  
 
   
 
@@ -211,7 +285,11 @@ _**Example:**_ If a user inputs a `8`and selects "Normal" radio button, and does
 
   
 
+  
+
 _Email no one with any questions, comments, or concerns._
+
+  
 
   
 
@@ -227,7 +305,11 @@ _Email no one with any questions, comments, or concerns._
 
   
 
+  
+
 *{This software is licensed under the MIT license}*
+
+  
 
   
 
